@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .con{
+            width: 400px;
+            height: 400px;
+            background-size: 10%;
+            background-repeat: repeat;
+            border-radius: 50%;
+            background: conic-gradient(red 25%,blue 25%,blue 50%,yellow 50%,yellow 75%,green 75%,green 75%);
+            animation: rot 1s infinite;
+        }
+        @keyframes rot {
+            0%{
+              transform:rotatex(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="con"></div>
+    
+    
+</body>
+</html>
